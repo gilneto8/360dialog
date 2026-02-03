@@ -1,0 +1,8 @@
+add --title 'Mayhem @ LAV' --start 'Feb 14 20:45' --end 'Feb 14 23:45'
+add --title 'A. A. Williams @ LAV' --start 'Feb 13 20:45' --end 'Feb 13 23:45'
+add --title 'Witch Club Satan @ LAV' --start 'Feb 27 20:45' --end 'Feb 27 23:45'
+list
+list --date 'Feb 14'
+list --date 'Feb 13'
+list --date 'Feb 27'
+list --date 'Feb 28'

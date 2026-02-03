@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "360dialog-interview"
+version = "0.1.0"
+readme = "README.md"
+packages = [{include = "app", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pydantic = "^2.6.0"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+sqlalchemy = "^2.0.27"
+psycopg2-binary = "^2.9.9"
+httpx = "^0.27.0"
+python-dotenv = "^1.0.1"
+pydantic-settings = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.2.0"
+black = "^24.1.0"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
