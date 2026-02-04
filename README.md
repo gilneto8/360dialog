@@ -1,8 +1,10 @@
-# 360dialog Chatbot
+# WhatsApp Calendar Manager
+
+> This application was developed as a technical challenge for the 360dialog company.
 
 ## Description
 
-A Chatbot application for 360dialog.
+A calendar manager for WhatsApp. Users can add, list, update, remove, and query their events through WhatsApp messages. The application uses 360dialog's WhatsApp API to receive and send messages. It uses a PostgreSQL database to store events.
 
 ## Setup
 
