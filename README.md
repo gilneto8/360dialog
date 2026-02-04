@@ -6,6 +6,24 @@ A Chatbot application for 360dialog.
 
 ## Setup
 
+### Your Environment Variables
+
+- Create an `.env` file with the following content. The content below will work as-is, as long as you create your API key. Follow [this documentation](https://docs.360dialog.com/docs/get-started/sandbox#how-to-get-started-with-sandbox) to get your API key.
+```toml
+# =============================
+# 360DIALOG CONFIGS
+# =============================
+API_KEY="<YOUR_D360_API_KEY>"
+WA_API_URL="https://waba-sandbox.360dialog.io/v1/messages"
+
+# =============================
+# DATABASE CONFIGS
+# =============================
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=chatbot
+```
+
 ### Install Dependencies
 ```bash
 > python -m venv .venv
